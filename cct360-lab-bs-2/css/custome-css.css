@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Custome Document */
+
+.spotlight-banner{
+	max-height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	width: 4rem;
+	height: 4rem;
+}
+
+.card h4{
+	text-decoration: underline;
+}
+
+a.badge{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.offcanvas-header h1{
+	font-family:'League Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+.offcanvas-body a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 600
+}
+
+.offcanvas-body a:hover{
+	text-decoration: underline;
+}
+
+.video-caption h1{
+	font-family:'League Gothic', sans-serif;
+	text-transform: uppercase;
+	font-size: 200px;
+}
+
+.carousel-caption h1{
+	font-family:'VT323', monospace;
+	text-transform: uppercase;
+	font-size: 150px;
+}
+
+.carousel-caption p{
+	font-family:'VT323', monospace;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+#myModal .modal-content {
+  color: black;
+}
+
+.col-lg-4 h7 {
+  font-family: 'VT323', monospace, sans-serif;
+  font-size: 30px;
+}
+
+.custom-phototitle{
+		font-family:'League Gothic', sans-serif;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+
+.fa {
+  padding: 10px;
+  width: 20px;
+  width: 35PX;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 1px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #000;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.float-end a{
+	color: black;
+}
+
+.col-md-3 h5{
+			font-family:'League Gothic', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+}
+
+.col-md-4 h5{
+			font-family:'League Gothic', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+}

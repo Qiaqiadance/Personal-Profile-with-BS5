@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Charles Personal Web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custome-css.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Mono:ital,wght@1,500&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+	
+<!-- Navbar with hamburger -->
+<div class="container-fluid p-1 bg-dark text-white fixed-top">
+    <div class="row align-items-center" style=" height: 55px;">
+        <div class="col-md-5 text-md-left">
+			<button class="btn btn-light text-dark float-left" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+                Learn More
+            </button>
+        </div>
+		
+        <div class="col-md-2 text-center">
+ <h1 style="font-family:'VT323', monospace; font-size: 40px; margin-top: 10px;">NEONBAR STUDIO</h1>
+        </div>
+    </div>
+	
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Photo.html">Media Pages</a>
+        </li>  
+		<li class="nav-item">
+          <a class="nav-link" href="Video.html">Video Zone</a>
+        </li> 
+		<li class="nav-item">
+          <a class="nav-link" href="Product.html">Products</a>
+        </li> 
+		<li class="nav-item">
+          <a class="nav-link" href="Process.html">Process Page</a>
+        </li> 
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="Design.html">Design Spaces</a>
+        </li>
+      </ul>
+    </div>
+	  
+	  <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+	  
+  </div>
+</nav>
+	
+	
+	
+	
+	
+</div>
+	
+	
+	<!-- sidebar -->
+<div class="offcanvas offcanvas-start" id="demo1">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Neonbar Stuidio</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+	<p><a href="index.html">Home</a></p>
+    <p><a href="Profile.html">Profile</a></p>
+    <p><a href="Photo.html">Media Pages</a></p>
+    <p><a href="Video.html">Video Zone</a></p>
+    <p><a href="Design.html">Design Spaces</a></p>
+    <p><a href="Product.html">Products</a></p>
+    <p><a href="Process.html">Process Page</a></p>
+	  
+	 <form class="d-flex">
+     <input class="form-control me-2" type="text" placeholder="Search">
+     <button class="btn btn-dark" type="button">Search</button>
+     </form> 
+	 
+  </div>
+</div>
+	
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div style="position: relative; height: 800px; overflow: hidden;">
+                <section id="video-placeholder">
+                    <video autoplay muted loop class="w-100 h-100" style="object-fit: cover;">
+                        <source src="video/mv01.mp4" type="video/mp4">
+                    </video>
+                      <div class="video-caption position-absolute bottom-0 start-50 translate-middle-x text-white">
+                        <h1>"Video Zone"</h1>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-4 bg-dark text-white text-center" style="font-family: 'VT323', monospace; sans-serif; font-size: 50px">
+<h1>" Video Speaks Louder than Words "</h1>
+</div>
+	
+	<!-- Carousel -->
+<div id="highlight" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#highlight" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#highlight" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#highlight" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplay muted loop class="d-block w-100" controls style="height: 800px; object-fit: cover;">
+        <source src="video/val.mp4" type="video/mp4">
+      </video>
+      <div class="carousel-caption">
+        <h1>Gameplay</h1>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <video autoplay muted loop class="d-block w-100" controls style="height: 800px; object-fit: cover;">
+        <source src="video/walk.mp4" type="video/mp4">
+      </video>
+      <div class="carousel-caption">
+        <h1>Clip</h1>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <video autoplay muted loop class="d-block w-100" controls style="height: 800px; object-fit: cover;">
+        <source src="video/life.mp4" type="video/mp4">
+      </video>
+      <div class="carousel-caption">
+        <h1>Life</h1>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#highlight" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#highlight" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+	
+ <div class="container marketing">	
+
+	 		     <div class="row featurette">
+        <div class="col-md-12 text-center mb-2">
+            <h1 class="display-4 custom-phototitle">Work Pieces</h1>
+        </div>
+    </div>
+	 
+<div class="row featurette">
+    <div class="col-md-6">
+       <iframe width="600" height="320" src="https://www.youtube.com/embed/qwdM3xKETw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+	    <div class="col-md-6">
+        <iframe width="600" height="320" src="https://www.youtube.com/embed/0VHlfd92zDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+	  </div>
+
+	
+
+    <hr class="featurette-divider">
+	 
+	
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2023 Charles, Qiaqia&middot;</p>
+	  
+	  	  <div class="mediazone">
+			<div class="mediaicons">
+			
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		  
+				
+			</div>
+		  </div>
+	  
+  </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+<script>
+// Popover	
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+</body>
+</html> 

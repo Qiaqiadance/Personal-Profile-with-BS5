@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Charles Personal Web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custome-css.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Mono:ital,wght@1,500&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+	
+	
+	
+	<script>
+    var bigproductValue = 150;
+    var smallproductValue = 100;
+    var decreaseValue = 10;
+    var year = 6;
+
+    function currentBPvalue() {
+        return bigproductValue - (year * decreaseValue);
+    }
+
+    function currentSPvalue() {
+        return smallproductValue - (year * decreaseValue);
+    }
+</script>	
+	
+<!-- Navbar with hamburger -->
+<div class="container-fluid p-1 bg-dark text-white fixed-top">
+    <div class="row align-items-center" style=" height: 55px;">
+        <div class="col-md-5 text-md-left">
+			<button class="btn btn-light text-dark float-left" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+                Learn More
+            </button>
+        </div>
+		
+        <div class="col-md-2 text-center">
+ <h1 style="font-family:'VT323', monospace; font-size: 40px; margin-top: 10px;">NEONBAR STUDIO</h1>
+        </div>
+    </div>
+	
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Photo.html">Media Pages</a>
+        </li>  
+		<li class="nav-item">
+          <a class="nav-link" href="Video.html">Video Zone</a>
+        </li> 
+		<li class="nav-item">
+          <a class="nav-link" href="Product.html">Products</a>
+        </li> 
+		<li class="nav-item">
+          <a class="nav-link" href="Process.html">Process Page</a>
+        </li> 
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="Design.html">Design Spaces</a>
+        </li>
+      </ul>
+    </div>
+	  
+	  <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+	  
+  </div>
+</nav>
+	
+	
+	
+	
+	
+</div>
+	
+	
+	<!-- sidebar -->
+<div class="offcanvas offcanvas-start" id="demo1">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Neonbar Stuidio</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+	<p><a href="index.html">Home</a></p>
+    <p><a href="Profile.html">Profile</a></p>
+    <p><a href="Photo.html">Media Pages</a></p>
+    <p><a href="Video.html">Video Zone</a></p>
+    <p><a href="Design.html">Design Spaces</a></p>
+    <p><a href="Product.html">Products</a></p>
+    <p><a href="Process.html">Process Page</a></p>
+	  
+	 <form class="d-flex">
+     <input class="form-control me-2" type="text" placeholder="Search">
+     <button class="btn btn-dark" type="button">Search</button>
+     </form> 
+	 
+  </div>
+</div>
+	
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Watch.jpg" class="d-block w-100" alt="laptop">
+            <div class="container">
+                <div class="carousel-caption text-start" style="font-family: 'League Gothic', sans-serif">
+                    <h1>Products Review</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	
+<div class="container-fluid p-4 bg-dark text-white text-center" style="font-family: 'VT323', monospace; sans-serif; font-size: 50px">
+<h1>" The Proven of Past-Time "</h1>
+</div>	
+
+<div class="container-fluid mt-4">	
+
+ <div class="row featurette">
+	     <div class="col-md-2">
+    </div>
+
+    <div class="col-md-4">
+                <h5 class="featurette-heading fw-normal lh-1">Product Value<br>Calculation <span class="text-body-secondary"></span></h5>
+  
+    </div>
+<div class="col-md-4">
+    <p class="lead">
+        This description will show how I value my personal products. Large products are valued at 150% while small products are valued at 100%. From the year (default year is 6) I acquired the product to the present, the value of the product has decreased by 10% for each year that has passed, resulting in the current value of the product.
+
+        <br><br>
+        <strong>Calculation Process:</strong>
+        <br>Current value of default large product: %<script>document.write(bigproductValue);</script>
+        <br>Yearly decrease: -%<script>document.write(decreaseValue);</script>
+        <br>Number of years: <script>document.write(year);</script>
+        <br>Current value calculation: %<script>document.write(bigproductValue - (year * decreaseValue));</script>
+
+        <br><br>
+        <strong>Calculation Process for Small Product:</strong>
+        <br>Current value of small product: %<script>document.write(smallproductValue);</script>
+		<br>Yearly decrease: -%<script>document.write(decreaseValue);</script>
+        <br>Number of years: <script>document.write(year);</script>
+        <br>Current value calculation: %<script>document.write(smallproductValue - (year * decreaseValue));</script>
+    </p>
+</div>   
+	 <div class="col-md-2">
+    </div>
+</div>
+</div>
+	 
+<!-- 6 equal sizes boxes -->	
+	<div class="container mt-5 mb-5">
+		<div class="row">
+		
+			<div class="col-lg-4">
+				
+			  <h2>Xbox Elite Controller</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/contoller.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 80%</h4>
+              <p class="card-text">Elevate your gameplay precision and customization with the Xbox Elite Controller, featuring swappable components and advanced controls for a competitive edge.</p >
+
+              </div>  
+			  </div>
+            </div>
+			
+			<div class="col-lg-4">
+		
+			<h2>G PRO X Gaming Headset</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/headphone.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 90%</h4>
+              <p class="card-text">Immerse yourself in crystal-clear audio and customize your sound profile with the G PRO X Gaming Headset, designed for professional-grade performance and comfort.</p >
+
+              </div>  
+			  </div>
+            </div>
+				
+				
+			<div class="col-lg-4">
+				
+				<h2>G Pro Gaming Mouse</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/mouse.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 100%</h4>
+              <p class="card-text">Dominate the competition with the G Pro Gaming Mouse, engineered for precision and speed with customizable DPI settings and a lightweight design for optimal gaming control.</p >
+        
+              </div>  
+			  </div>
+            </div>		
+		</div>
+	</div>
+	
+		<div class="container mt-5 mb-5">
+		<div class="row">
+		
+			<div class="col-lg-4">
+				
+			  <h2>2017 Honda Civic</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/car.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 90%</h4>
+              <p class="card-text">Honda Civic is a well-known and popular compact car model. It has been in production for several decades and is recognized for its reliability, fuel efficiency, and versatility. </p >
+
+              </div>  
+			  </div>
+            </div>
+			
+			<div class="col-lg-4">
+		
+			<h2>PlayStation 5</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/console.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 150%</h4>
+              <p class="card-text">Enter the next generation of gaming with the PlayStation 5, offering stunning graphics, lightning-fast load times, and an expansive game library for an unmatched gaming adventure.</p >
+            
+              </div>  
+			  </div>
+            </div>
+				
+				
+			<div class="col-lg-4">
+				
+				<h2>Omen Gaming Laptop</h2>
+ 			  <div class="card">
+              <img class="card-img-top" src="images/lap.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+              <h4 class="card-title">Current Value: 100%</h4>
+              <p class="card-text">Unleash unparalleled gaming performance with the Omen Gaming Laptop, combining cutting-edge hardware and sleek design for an immersive gaming experience.</p >
+             
+              </div>  
+			  </div>
+            </div>		
+		</div>
+	</div>
+	
+	
+  <footer class="container">
+	  	
+	<hr class="featurette-divider">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2023 Charles, Qiaqia&middot;</p>
+	  
+	  	  <div class="mediazone">
+			<div class="mediaicons">
+			
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		  
+				
+			</div>
+		  </div>
+	  
+  </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
+
+	
+	
+<script>
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+<script>
+// Popover	
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+</body>
+</html> 
